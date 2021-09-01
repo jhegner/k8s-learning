@@ -3,12 +3,13 @@
 Assim como no Docker é possivel passar comandos e argumentos no K8s para a imagem
 
 ## Dockerfile
-
+<pre><code>
 FROM ubuntu
 
 ENTRYPOINT ["sleep"]
 
 CMD ["5"]
+</code></pre>
 
 ## pod-definition.yaml
 
